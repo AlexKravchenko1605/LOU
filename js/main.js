@@ -99,7 +99,7 @@ function findDressById(dresses, dressId) {
 function getPathPrefix() {
   let prefix = "../";
   if (document.location.pathname === "/index.html") {
-    prefix = "../";
+    prefix = "./";
   }
   return prefix;
 }
