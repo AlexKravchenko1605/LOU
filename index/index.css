@@ -259,6 +259,7 @@ h2 {
   text-transform: uppercase;
   color: var(--color-txt-black);
   font-family: var(--main-font-family);
+  margin-top: 15px;
 }
 
 .long_picture {
@@ -676,6 +677,7 @@ h2 {
   .catalog__product__cards {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 490px) {
