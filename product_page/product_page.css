@@ -278,7 +278,7 @@
   justify-content: space-between;
   padding: 0.75rem 1rem;
   width: 100%;
-  background: var(--color-txt-white);
+  background-color: white;
   border: none;
   outline: none;
   border-bottom: 1px solid var(--color-grey);
@@ -287,7 +287,7 @@
 }
 
 .accordion-header.active {
-  background-color: var(--color-txt-white);
+  background-color: white;
 }
 .accordion-header.active i {
   transform: rotate(180deg);
