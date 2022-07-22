@@ -354,9 +354,14 @@ h2 {
     margin-top: -8.5%;
   }
   .img_margin_1 {
-    max-height: 234px;
+    max-height: 222px;
   }
-
+  .img_margin_2 {
+    max-width: 53%;
+  }
+  .lookbook__img-inner img {
+    max-width: 53%;
+  }
   .figure img {
     max-width: 155px;
     max-height: 234px;
