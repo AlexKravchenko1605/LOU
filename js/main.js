@@ -3,7 +3,7 @@ $(function () {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     variableWidth: true,
   });
@@ -11,7 +11,7 @@ $(function () {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     variableWidth: true,
     arrows: false,
@@ -96,20 +96,20 @@ function findDressById(dresses, dressId) {
   return dress;
 }
 
-function getPathPrefix() {
-  let prefix = "../";
-  if (document.location.pathname === "/index.html") {
-    prefix = "./";
-  }
-  return prefix;
-}
+// function getPathPrefix() {
+//   let prefix = "../";
+//   if (document.location.pathname === "/index.html") {
+//     prefix = "./";
+//   }
+//   return prefix;
+// }
 
 function changeCartView(dressId) {
-  let imgSrc = getPathPrefix() + "icons/bag-active.svg";
+  let imgSrc = "../icons/bag-active.svg";
   const cart = document.getElementById(`cart-${dressId}`);
   const classes = cart.classList;
   if (classes.contains("active")) {
-    imgSrc = getPathPrefix() + "icons/bag.svg";
+    imgSrc = "../icons/bag.svg";
     cart.classList.remove("active");
   } else {
     cart.classList.add("active");
@@ -118,11 +118,11 @@ function changeCartView(dressId) {
 }
 
 function changeLikeView(dressId) {
-  let imgSrc = getPathPrefix() + "icons/heart-active.svg";
+  let imgSrc = "../icons/heart-active.svg";
   const like = document.getElementById(`like-${dressId}`);
   const classes = like.classList;
   if (classes.contains("active")) {
-    imgSrc = getPathPrefix() + "icons/heart.svg";
+    imgSrc = "../icons/heart.svg";
     like.classList.remove("active");
   } else {
     like.classList.add("active");
