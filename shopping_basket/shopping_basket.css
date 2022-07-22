@@ -773,7 +773,7 @@ p {
   }
   .product_title {
     font-size: 12px;
-    width: 172px;
+    width: 155px;
   }
   .cart_price {
     display: none;
@@ -793,7 +793,7 @@ p {
   .select_quantity {
     position: absolute;
     top: 153px;
-    left: 68px;
+    left: 87px;
     border: 2px solid grey;
     padding: 2px 11px;
     border-radius: 8px;
@@ -808,7 +808,7 @@ p {
 
   .total_price_of_product {
     position: absolute;
-    left: 80px;
+    left: 98px;
     top: 58px;
   }
 
@@ -855,5 +855,9 @@ p {
   }
   .total_btn {
     margin-left: 0;
+  }
+  .product img {
+    width: 112px;
+    height: 160px;
   }
 }
