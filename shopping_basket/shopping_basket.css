@@ -609,23 +609,143 @@ p {
     margin-bottom: 60px;
   }
 }
+@media (max-width: 360px) {
+  .also_like_cards {
+    flex-direction: column;
+  }
 
-@media (max-width: 340px) {
+  .product img {
+    width: 140px;
+    height: 160px;
+  }
+  .container_product_page_also_like {
+    margin-bottom: 90px;
+  }
   .also_like {
     font-size: 24px;
   }
+  .label_tabs {
+    max-width: 344px !important;
+    width: 300px;
+  }
+  #content5 {
+    margin-left: -1%;
+  }
+  .verification_img {
+    margin-left: 0px;
+  }
+  .basket_title__text {
+    font-size: 3em;
+  }
+
+  .container_title {
+    display: none;
+  }
+  .container_title_font {
+    font-size: 18px;
+  }
+  .your_order {
+    display: block;
+    margin-bottom: 12px;
+    color: var(--color-txt-black);
+  }
+  .product_title {
+    font-size: 12px;
+    width: 172px;
+  }
+  .cart_price {
+    display: none;
+  }
+  .product {
+    position: relative;
+  }
+  .plus {
+    font-size: 27px;
+  }
+  .minus {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 48px;
+  }
+  .select_quantity {
+    position: absolute;
+    top: 153px;
+    left: 99px;
+    border: 2px solid grey;
+    padding: 2px 11px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  .product_color {
+    margin-bottom: 2px;
+  }
+  .product_size {
+    margin-top: 35px;
+  }
+
+  .total_price_of_product {
+    position: absolute;
+    left: 107px;
+    top: 58px;
+  }
+
+  .total {
+    max-width: 343px;
+  }
+  .total_price {
+    font-size: 24px;
+  }
+  .cart_container_line_bottom,
+  .cart_container_line {
+    max-width: 340px;
+  }
+  .cart_container,
+  .container_cart {
+    width: 344px;
+  }
+
+  .input_field {
+    width: 280px;
+  }
+  .form_of_date {
+    margin-left: 0;
+  }
+
+  .checkbox_ {
+    margin-left: 19px;
+  }
+  .your_data_btn {
+    margin-left: 0;
+  }
+
+  .radio_content_3_wrapper {
+    margin-left: 0;
+  }
+  .go_further_btn {
+    margin-left: 0;
+  }
+  .subscribe {
+    margin-top: -80px;
+  }
+  .container_link_to_shopping {
+    margin-top: 0;
+  }
+  .total_btn {
+    margin-left: 0;
+  }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 320px) {
   .also_like_cards {
     flex-direction: column;
   }
   .container_product_page_also_like {
     margin-bottom: 90px;
   }
-}
-
-@media (max-width: 320px) {
+  .also_like {
+    font-size: 24px;
+  }
   .label_tabs {
     max-width: 300px !important;
     width: 300px;
