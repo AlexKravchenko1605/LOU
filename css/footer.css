@@ -37,6 +37,7 @@
   font-weight: 600;
   margin-top: 0;
   font-family: var(--main-font-family);
+  margin-bottom: 12px;
 }
 
 .subscribe-form {
@@ -49,6 +50,7 @@
   width: 282px;
   height: 37px;
   background-color: transparent;
+  padding: 0 5px;
 }
 
 .subscribe-form button {
@@ -189,6 +191,7 @@
   border-right: none;
   border-left: none;
   font-family: var(--main-font-family);
+  font-size: var(--font-size-14px);
 }
 
 .footer-subscribe button {
@@ -348,7 +351,7 @@
 
   .subscribe-form input {
     width: 100%;
-    max-width: 292px;
+    max-width: 300px;
     margin-bottom: 10px;
   }
 
