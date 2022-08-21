@@ -130,6 +130,9 @@ p {
   color: var(--color-grey);
   font-family: var(--main-font-family);
 }
+.remove:hover {
+  cursor: pointer;
+}
 
 .select_size,
 .select_colour {
@@ -609,6 +612,7 @@ p {
     margin-bottom: 60px;
   }
 }
+
 @media (max-width: 360px) {
   .also_like_cards {
     flex-direction: column;
@@ -625,8 +629,8 @@ p {
     font-size: 24px;
   }
   .label_tabs {
-    max-width: 344px !important;
-    width: 300px;
+    max-width: 360px !important;
+    width: 348px !important;
   }
   #content5 {
     margin-left: -1%;
@@ -637,7 +641,9 @@ p {
   .basket_title__text {
     font-size: 3em;
   }
-
+  .radio_content_3_wrapper {
+    margin-left: 36px;
+  }
   .container_title {
     display: none;
   }
@@ -719,9 +725,6 @@ p {
     margin-left: 0;
   }
 
-  .radio_content_3_wrapper {
-    margin-left: 0;
-  }
   .go_further_btn {
     margin-left: 0;
   }
@@ -808,8 +811,8 @@ p {
 
   .total_price_of_product {
     position: absolute;
-    left: 98px;
-    top: 58px;
+    left: 80px;
+    top: 56px;
   }
 
   .total {
