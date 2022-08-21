@@ -629,8 +629,8 @@ p {
     font-size: 24px;
   }
   .label_tabs {
-    max-width: 360px !important;
-    width: 348px !important;
+    max-width: 413px !important;
+    width: 400px !important;
   }
   #content5 {
     margin-left: -1%;
@@ -708,7 +708,7 @@ p {
   }
   .cart_container,
   .container_cart {
-    width: 344px;
+    width: 400px;
   }
 
   .input_field {
