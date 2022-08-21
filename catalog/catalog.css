@@ -399,7 +399,7 @@
   }
 
   .card_8 {
-    margin-left: 8px;
+    margin-left: -56px;
   }
   .card_9 {
     display: none;
@@ -428,11 +428,11 @@
 
   .card_4_640px_div {
     margin-left: auto;
-    margin-right: 30%;
+    margin-right: 23%;
   }
 
   .card_5_640px_div {
-    margin-right: -1px;
+    margin-right: -12px;
   }
 }
 
