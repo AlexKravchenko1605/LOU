@@ -613,7 +613,7 @@ p {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 413px) {
   .also_like_cards {
     flex-direction: column;
   }
